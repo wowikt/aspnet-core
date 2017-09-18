@@ -26,6 +26,7 @@ namespace UserTest
                 //Scan the assembly for classes which inherit from AutoMapper.Profile
                 cfg.AddProfiles(thisAssembly);
             });
+
         }
     }
 }
